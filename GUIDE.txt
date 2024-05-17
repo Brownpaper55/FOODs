@@ -1,0 +1,49 @@
+Hey Mike,
+We are building a food app where users can purchase food online from their comfort zones
+we will make ours a little different by allowing users to create accounts so they can enjoy disscounts and promos
+
+
+
+
+
+
+#WEEK 1
+1. site setup
+2. homepage creation
+3. admin site creation
+4. database creation
+
+
+
+#WEEK 2
+1. create the various pages
+2. A page for foods (Rice_dishes, Local_dishes)
+3. A page for drinks (Alcoholic, non_alcoholic, punches)
+4. A page for extras (soups and all that)
+
+
+#WEEK 3
+1. An optional signup page
+2. A sign in page
+3. A logout page
+4. Update the homepage to welcome users displaying their usernames
+
+
+#WEEK 4
+1. Add features to enable food purchasing
+
+
+#WEEK 5
+1. Add payment methods
+2. Do a lot of impossible things
+3. Help me God
+4. For the web design:
+        if any front end engineer wants to help:
+            Build APIs
+        else:
+            css and html waguan!    
+5. test my app
+
+#WEEK 6
+1. Deployment 
+2. Hurray

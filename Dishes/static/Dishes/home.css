@@ -1,0 +1,58 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.home{
+    background-color:dimgray;
+    color:white;
+    background-image: url('images/lit.jpeg');
+    background-repeat:no-repeat;
+    background-position:left;
+    background-size:300px;
+    margin-bottom: 50px;
+    
+}
+
+ul.one{
+    margin-top: 20px;
+    margin-left: 500px;
+    word-spacing: 20px;
+    font-size: larger;
+
+}
+    
+li{
+    display: inline;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:focus{
+    color: orange
+}
+
+a:hover{
+    color:aqua
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+ul.two{
+    margin-left: 200px;
+    word-spacing: 30px;
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+

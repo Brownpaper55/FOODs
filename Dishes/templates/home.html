@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    
+    <head>
+        <title>ADUANE-FIE</title>
+        <link rel="stylesheet" href="{% static 'Dishes/home.css' %}" >
+    </head>
+    <body>
+        <div class="home">
+            <ul class="one">
+                <li><a href="/Dishes">HOME</a></li>
+                <li ><a href="/Dishes/foods">DISHES</a></li>
+                <li><a href="/Dishes/drinks">DRINKS</a></li>
+                <li><a href="/Dishes/Extras">EXTRAS</a></li>
+                <li><a href="/Dishes/login">ACCOUNTS</a></li>
+                <li><input type="text" id="input-box" placeholder="search food"><button >search</button></li>
+            </ul>    
+        
+        <h2><img src={% static 'Dishes/images/logo.jpeg' %} height="120" width="200"> <h2>ADUANE-FIE</h2>
+        </div>
+        <div class="home1">
+            <p>We are open 24/7, we are reliable and deal in all brands of food</p>
+            <p>Visit any of the tabs above to place your order be it Food or Drinks</p>
+            <ul class="two">
+                <li><img src="{% static 'Dishes/images/love.jpeg' %}" height="200" width="200"></li>
+                <li><img src="{% static 'Dishes/images/bread.jpeg' %}" height="200" width="200"></li>
+                <li><img src="{% static 'Dishes/images/fried.jpeg' %}" height="200" width="200"></li>
+                <li><img src="{% static 'Dishes/images/grr.jpeg' %}" height="200" width="200"></li>
+          </ul>
+          <p>For further enquiries contact us: +233 220 020 202</p>
+        </div>
+    
+    </body>
+</html>

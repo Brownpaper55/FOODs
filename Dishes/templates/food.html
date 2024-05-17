@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>{% block Dishes%}{% endblock %}</title>
+        {% load bootstrap5 %}
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}
+        <link rel="stylesheet" href="static/food.css">
+    </head>
+    <body>
+<h2>Dishes</h2><hr><br>
+{% block content %}
+<div class="container">
+{% for items in Food %}
+    <ul>
+<h3><li>{{items.name}}...................</label>
+Ghs{{items.price}}</li></h3>
+
+<a href="buy/{{items.id}}/">buy</a>
+</ul>
+{% endfor %}
+</form>
+<br>
+
+</div>
+{% endblock %}
+    </body>
+</html>
